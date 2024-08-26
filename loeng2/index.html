@@ -9,14 +9,26 @@
     <h1>Sisene süsteemi</h1>
     <form action="/test" method="post">
         <div>
-            <label for="name">Kasutajatunnus</label>
-            <input type="text" name="nimi">
+            <label for="name">Kasutajatunnus:</label>
+            <input type="text" name="Kasutajatunnus">
 
         </div>
         <div>
-            <label for="password">Salasõna</label>
+            <label for="name">Nimi:</label>
+            <input type="text" name="Nimi">
+        </div>
+        <div>
+            <label for="password">Salasõna:</label>
             <input type="password" name="parool" id="">
 
+        </div>
+        <div>
+        <label for="password">Salasõna teist korda</label>
+        <input type="password" name="Korda parooli" id="">    
+        </div>
+        <div>
+            <input type="checkbox" name="nousolek">
+            <label for="nousolek">Olen nõus enda infot saatma</label>
         </div>
         <div>
             <input type="submit" value="Logi sisse">
