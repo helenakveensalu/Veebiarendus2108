@@ -1,0 +1,21 @@
+.konteiner {
+    background-color: hsl(49, 18%, 59%);
+}
+h1 {
+    color: white;
+}
+body {
+    background-color: beige;
+}
+html {
+font-family: "Oxygen Mono", monospace;
+font-size: 16px;
+}
+.post-date {
+    font-size: 0.7rem;
+    font-family: "Cutive Mono", monospace;
+}
+.post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
