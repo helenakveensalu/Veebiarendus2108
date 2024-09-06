@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(143, 97, 104);
+    object-position: center;
+    background-image: url(./vintage-flower-wall-pink.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+}
+.postitused {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 50%;
+    padding: 1rem;
+}
+
+.post a:hover {
+    color: pink;
+}
+
+.post img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}

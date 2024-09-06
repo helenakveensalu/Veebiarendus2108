@@ -8,3 +8,9 @@
 .row {
     --bs-gutter-x: 2rem;
     --bs-gutter-y: 2rem;
+}
+img {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(158, 110, 117);
+}
