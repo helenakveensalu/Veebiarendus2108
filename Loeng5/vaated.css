@@ -1,0 +1,44 @@
+body {
+    background-color: burlywood;
+}
+
+.post {
+    width: 90%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: beige;
+    }
+    .postitused {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post {
+        max-width: 40%;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        background-color: pink;
+    }
+    h1 {
+        color: antiquewhite;
+    }
+    .postitused {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post {
+        max-width: 26%;
+        margin-left: 1rem;
+    }
+    
+}

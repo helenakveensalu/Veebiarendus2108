@@ -1,0 +1,10 @@
+.bg-tailored {
+    background-color: rgb(158, 110, 117);
+}
+
+.my-primary-color {
+    color: white !important;
+}
+.row {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 2rem;
