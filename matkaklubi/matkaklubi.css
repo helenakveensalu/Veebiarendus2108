@@ -34,14 +34,13 @@ body {
     line-height: 2rem;
 }
 
-.menu {
+.menuu {
     display: list-item;
     font-size: 1.05rem;
     letter-spacing: 0.17rem;
     color: #000000;
     opacity: 1;
     font-weight: 800;
-    margin-top: 2rem;
 }
 
 a {
@@ -53,10 +52,83 @@ a:hover {
     color: grey;
 }
 
-@media screen and (min-width: 960px) {
-.menu {
+@media screen and (min-width: 992px) {
+.menuu {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: right;
+    align-items: center;
 }
+.menuu div {
+    margin-left: 3rem;;
+}
+.pealkiri-kastid {
+    padding-top: 14.44rem;
+}
+}
+
+@media screen and (min-width: 1px) {
+    .menuu {
+        margin-top: 2rem;
+    }
+}
+
+.kolmas-rida {
+    p {margin-bottom: -0.5rem;
+}
+}
+
+.heading1 {
+    font-size: 2.47rem;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+}
+
+.heading2 {
+    font-size: 4.64rem;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+}
+
+.heading3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+}
+
+@media  and (min-width: 992px) {
+    .pealkiri-kastid {
+        padding-top: 14.44rem;
+    }
+}
+
+.call-to-action {
+    background-color: #0B0B0B;
+    height: 3.625rem;
+    width: 15rem;
+    font-size: 0.78rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.rida {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liblikas1 {
+    width: 4.7rem;
+    height: 3.75rem;
+    margin-top: -3.75rem;
+    margin-left: auto;
 }
