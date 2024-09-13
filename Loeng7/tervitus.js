@@ -1,3 +1,3 @@
 let nimi
 nimi = prompt("Sisesta palun oma nimi")
-alert("Tervitused, " + nimi)
+document.querySelector("#tervitus"). innerHTML = "Tervitused, " + nimi
