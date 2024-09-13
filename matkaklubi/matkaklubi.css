@@ -90,10 +90,12 @@ a:hover {
 .heading2 {
     font-size: 4.64rem;
     font-weight: 800;
-    text-align: left;
+    justify-content: left;
     letter-spacing: 0px;
     color: #0B0B0B;
     opacity: 1;
+    display: block;
+    margin-left: -1.5rem;
 }
 
 .heading3 {
@@ -112,6 +114,8 @@ a:hover {
 }
 
 .call-to-action {
+    display: table-cell;
+    vertical-align: middle;
     background-color: #0B0B0B;
     height: 3.625rem;
     width: 15rem;
@@ -119,11 +123,11 @@ a:hover {
     color: white;
     text-align: center;
     align-items: center;
+    font-weight: 800;
 }
 
 .rida {
     display: flex;
-    justify-content: space-between;
 }
 
 .liblikas1 {
@@ -131,4 +135,20 @@ a:hover {
     height: 3.75rem;
     margin-top: -3.75rem;
     margin-left: auto;
+}
+
+.call-to-action {
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: grey;
+    }
+}
+
+.liblikas2 {
+    width: 3.75rem;
+    height: 2rem;
+    margin-left: -2.25rem;
 }
